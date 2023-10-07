@@ -1,0 +1,49 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = RockPaperScissors
+build_property.RootNamespace = RockPaperScissors
+build_property.ProjectDir = C:\Users\Andreas\Documents\Repositories\CCA\RockPaperScissors\RockPaperScissors\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Andreas\Documents\Repositories\CCA\RockPaperScissors\RockPaperScissors
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Andreas/Documents/Repositories/CCA/RockPaperScissors/RockPaperScissors/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Andreas/Documents/Repositories/CCA/RockPaperScissors/RockPaperScissors/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Andreas/Documents/Repositories/CCA/RockPaperScissors/RockPaperScissors/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Andreas/Documents/Repositories/CCA/RockPaperScissors/RockPaperScissors/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-l7pm6yktlu
+
+[C:/Users/Andreas/Documents/Repositories/CCA/RockPaperScissors/RockPaperScissors/Shared/GameModes/RPSBigBangTheory.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEdhbWVNb2Rlc1xSUFNCaWdCYW5nVGhlb3J5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-m5ylv1wa6n
+
+[C:/Users/Andreas/Documents/Repositories/CCA/RockPaperScissors/RockPaperScissors/Shared/GameModes/RPSNormal.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEdhbWVNb2Rlc1xSUFNOb3JtYWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-0k17bg2ccl
+
+[C:/Users/Andreas/Documents/Repositories/CCA/RockPaperScissors/RockPaperScissors/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-a6w3t4ch9j
+
+[C:/Users/Andreas/Documents/Repositories/CCA/RockPaperScissors/RockPaperScissors/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-hhei7innqr

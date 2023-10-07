@@ -1,0 +1,95 @@
+﻿@page "/"
+@using RockPaperScissors.Resources;
+
+<div class="text-center w-50" style="position:absolute;top:50%;left:50%;transform: translate(-50%, -50%);">
+
+
+    @if (!hideMenus)
+    {
+        @if (menuScreen)
+        {
+            <div class="row text-center">
+                <div class="col-12 mb-5">
+                    <h1>
+                        @Resources.ResourceFile.msgRockPaperScissors
+                    </h1>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="button-clickOnly" @onclick="normalGameModeClicked">
+                        <a href="#">
+                            <img src="assets/rock-paper-scissors.png">
+                        </a>
+                    </div>
+                    <div>
+                        <strong>
+                            @Resources.ResourceFile.msgNormalMode
+                        </strong>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="button-clickOnly" @onclick="bbtGameModeClicked">
+                        <a href="#">
+                            <img src="assets/bbt-logo.png">
+                        </a>
+                    </div>
+                    <div>
+                        <strong>
+                            @Resources.ResourceFile.msgTBBTMode
+                        </strong>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="button-clickOnly" @onclick="showScore">
+                        <a href="#">
+                            <i class="bi bi-bar-chart"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <strong>
+                            @Resources.ResourceFile.msgSB
+                        </strong>
+                    </div>
+                </div>
+
+            </div>
+        }
+
+    }
+
+    @if (normalGameMode)
+    {
+        <RockPaperScissors.Shared.GameModes.RPSNormal NavigateBackButtonCallback="BackButtonFromNormalModeClicked" UpdateScoreCallback="UpdateScore"></RockPaperScissors.Shared.GameModes.RPSNormal>
+    }
+
+    @if (bbtGameMode)
+    {
+        <RockPaperScissors.Shared.GameModes.RPSBigBangTheory NavigateBackButtonCallback="BackButtonFromBBTModeClicked"></RockPaperScissors.Shared.GameModes.RPSBigBangTheory>
+    }
+
+    @if (showScoreBoard)
+    {
+        <div class="row">
+            <div class="col-12 text-start">
+                <h3 @onclick="ShowGameModesMenus" style="cursor:pointer">
+                    <i class="bi bi-arrow-left-circle"></i>&nbsp;@ResourceFile.msgBack
+                </h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="row text-center">
+                    <div class="col-6" style="font-size:60px;"><i class="bi bi-person"></i></div>
+                    <div class="col-6" style="font-size:60px;"><i class="bi bi-robot"></i></div>
+                    <div class="col-6" style="font-size:50px;">@userScore</div>
+                    <div class="col-6" style="font-size:50px;">@botScore</div>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>

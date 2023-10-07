@@ -1,0 +1,55 @@
+﻿@inherits LayoutComponentBase
+
+<div>
+    <main class="container-fluid" style="height:100vh;background-color:#dde1e7;">
+        @Body
+    </main>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">How to play</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="https://cdn3.vectorstock.com/i/1000x1000/97/92/hand-game-rock-paper-scissors-gesture-vector-28239792.jpg" style="width: 100%;height: 100%; object-fit: contain;" />
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Modal BBT-->
+<div class="modal fade" id="staticBackdropBBT" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropBBTLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropBBTLabel">How to play</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="assets/RPSLS.png" style="width: 100%;height: 100%; object-fit: contain;" />
+            </div>
+                
+        </div>
+    </div>
+</div>
+
+@* Toast *@
+<div style="position:absolute;bottom:2%;right:1%;">
+    <div class="toast align-items-center text-white bg-warning border-0" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+            <div class="toast-body">
+                Please choose a hand first!
+            </div>
+            <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+    </div>
+</div>
+
+
+
